@@ -30,7 +30,7 @@
     },        
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
+      "required": true,
       "value": "true"  
    },      
     "AUTO_VOICE": {
@@ -100,12 +100,12 @@
     },
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
-      "required": true,
+      "required": false,
       "value": "true"
     },    
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
-      "required": true,
+      "required": false,
       "value": "true"      
     },    
     "CUSTOM_REACT_EMOJIS": {
